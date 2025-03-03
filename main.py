@@ -4,12 +4,12 @@ import asyncio
 import threading
 
 # 🔧 Настройки (замени своими данными)
-API_ID = 26029101
-API_HASH = "bad26cae7601e98e403f42c28639bdab"
-BOT_TOKEN = "7750576384:AAFVrKSkjCThjQr1xpiLMBnStMwvcRB1Q2U"
-GROUPS = [-1002496504204]  # ID групп
+API_ID = "" #авторизуйся через тг, заполни поля (можно сякий бред) https://my.telegram.org/
+API_HASH = "" #авторизуйся через тг, заполни поля (можно сякий бред) https://my.telegram.org/
+BOT_TOKEN = ""#Твой bot токен у BotFather
+GROUPS = [-100]  # ID групп
 KEYWORDS = ["Python", "фриланс", "работа"]  # Ключевые слова для фильтрации
-CHAT_ID = 462444414  # Твой Telegram ID
+CHAT_ID =   # Твой Telegram ID
 
 # Создаём объекты бота и Telethon-клиента
 bot = telebot.TeleBot(BOT_TOKEN)
